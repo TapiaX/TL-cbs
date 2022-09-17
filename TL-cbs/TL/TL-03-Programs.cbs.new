@@ -1,0 +1,11 @@
+Language "TL"
+
+#3 Programs
+
+Syntax
+  Pgm : pgm ::= line+
+
+Syntax 
+  Line: line ::= 'int' idlist 
+  			  | stmt
+              | exp
